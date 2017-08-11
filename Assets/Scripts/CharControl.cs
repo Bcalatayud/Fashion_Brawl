@@ -1,12 +1,4 @@
-﻿//------------------------------------------------------------
-//
-//	Example Code - by AceAsset
-//
-//  email : AceAsset@gmail.com
-//
-//------------------------------------------------------------
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -52,8 +44,6 @@ public class CharControl : MonoBehaviour
 	public Action[]		m_actionList;
 
 
-	//public Image Health;
-
 	//---------------
 	// private
 	//---------------
@@ -77,7 +67,6 @@ public class CharControl : MonoBehaviour
 		//m_coll = GetComponent<Collider> ();
 	}
 
-	// Use this for initialization
 	void Start () 
 	{
 		if( m_enableControl == true )
@@ -268,6 +257,8 @@ public class CharControl : MonoBehaviour
 				}
 			}
 			#endif
+
+
 			if(Input.GetKey(m_actionList[i].m_keyCode) == true )
 			{
 				actionValue = i + 1;
@@ -318,19 +309,6 @@ public class CharControl : MonoBehaviour
 
 	public void TakeDamage(CharControl other,Vector3 hitPosition,  Vector3 hitDirection, float amount)
 	{
-		//-------------------------
-		// Please enter your code.
-		//
-		// - hp calculation
-		// - animation reaction
-		// - Direction
-		// ...
-		//-------------------------
-
-		//----------------------
-		// For example
-		//----------------------
-
 
 		//--------------------
 		// direction example
