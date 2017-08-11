@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: e97dba1407871b846b692d8f868a29ab
+timeCreated: 1501885512
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Lamp11
+    100002: Lamp14
+    100004: Lamp19
+    100006: Lamp20
+    100008: Lamp25
+    100010: Lamp28
+    100012: Lamp35
+    100014: Lamp40
+    100016: Lamp43
+    100018: Lamp44
+    100020: Lamp47
+    100022: Rope1
+    100024: Rope2
+    100026: Rope3
+    100028: //RootNode
+    100030: Runway
+    400000: Lamp11
+    400002: Lamp14
+    400004: Lamp19
+    400006: Lamp20
+    400008: Lamp25
+    400010: Lamp28
+    400012: Lamp35
+    400014: Lamp40
+    400016: Lamp43
+    400018: Lamp44
+    400020: Lamp47
+    400022: Rope1
+    400024: Rope2
+    400026: Rope3
+    400028: //RootNode
+    400030: Runway
+    2300000: Lamp11
+    2300002: Lamp14
+    2300004: Lamp19
+    2300006: Lamp20
+    2300008: Lamp25
+    2300010: Lamp28
+    2300012: Lamp35
+    2300014: Lamp40
+    2300016: Lamp43
+    2300018: Lamp44
+    2300020: Lamp47
+    2300022: Rope1
+    2300024: Rope2
+    2300026: Rope3
+    2300028: Runway
+    3300000: Lamp11
+    3300002: Lamp14
+    3300004: Lamp19
+    3300006: Lamp20
+    3300008: Lamp25
+    3300010: Lamp28
+    3300012: Lamp35
+    3300014: Lamp40
+    3300016: Lamp43
+    3300018: Lamp44
+    3300020: Lamp47
+    3300022: Rope1
+    3300024: Rope2
+    3300026: Rope3
+    3300028: Runway
+    4300000: Runway
+    4300002: Lamp11
+    4300004: Lamp14
+    4300006: Lamp19
+    4300008: Lamp20
+    4300010: Lamp25
+    4300012: Lamp28
+    4300014: Lamp35
+    4300016: Lamp40
+    4300018: Lamp43
+    4300020: Lamp44
+    4300022: Lamp47
+    4300024: Rope1
+    4300026: Rope2
+    4300028: Rope3
+    6400000: Lamp11
+    6400002: Lamp14
+    6400004: Lamp19
+    6400006: Lamp20
+    6400008: Lamp25
+    6400010: Lamp28
+    6400012: Lamp35
+    6400014: Lamp40
+    6400016: Lamp43
+    6400018: Lamp44
+    6400020: Lamp47
+    6400022: Rope1
+    6400024: Rope2
+    6400026: Rope3
+    6400028: Runway
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
