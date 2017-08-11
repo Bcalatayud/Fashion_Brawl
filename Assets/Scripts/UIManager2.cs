@@ -16,7 +16,7 @@ public class UIManager2 : MonoBehaviour {
 	public void Enter()
 	{
 		SceneManager.LoadScene(1);
-		Application.Quit();
+		//Application.Quit();
 
 	}
 
