@@ -28,6 +28,7 @@ public class UIManager : MonoBehaviour
 		//P1_H.color = Color.green;
 		//SliderFill.color = Color.green;
         ClearUI();
+		//pausePanel.SetActive(true);
         startPanel.SetActive(true);
     }
 
