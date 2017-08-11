@@ -46,8 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AceAsset\CommonScripts\AnimationList.cs" />
-     <Compile Include="Assets\AceAsset\CommonScripts\DestroyTime.cs" />
      <Compile Include="Assets\AceAsset\CommonScripts\FollowCam.cs" />
      <Compile Include="Assets\AceAsset\CommonScripts\Message.cs" />
      <Compile Include="Assets\AceAsset\CommonScripts\Projectile.cs" />
@@ -58,8 +56,10 @@
      <Compile Include="Assets\Fighter Pack Bundle FREE\Code\FighterAnimationDemoFREE.cs" />
      <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\CameraController.cs" />
      <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\IdleChanger.cs" />
+     <Compile Include="Assets\Scripts\AnimationList.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\CharControl.cs" />
+     <Compile Include="Assets\Scripts\DestroyTime.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\UIManager2.cs" />

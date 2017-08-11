@@ -1,12 +1,4 @@
-﻿//------------------------------------------------------------
-//
-//	Example Code - by AceAsset
-//
-//  email : AceAsset@gmail.com
-//
-//------------------------------------------------------------
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System;
 
