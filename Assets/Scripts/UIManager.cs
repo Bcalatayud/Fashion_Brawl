@@ -39,7 +39,8 @@ public class UIManager : MonoBehaviour
     {
 		tiempo -= var;
 		//Debug.Log ("Tiempo es: "+ tiempo);
-		timer.text = "" + tiempo;
+		int iTiempo = (int)tiempo;
+		timer.text = "" + iTiempo;
 		//Debug.Log (volumeSlider.value);
 		AudioManager.instance.Volume (volumeSlider.value);
     }
@@ -84,7 +85,7 @@ public class UIManager : MonoBehaviour
         hudPanel.SetActive(true);
 		GameManager.instance.ChangeToNewState(GameState.CONTINUE);
         Time.timeScale = 1f;
-		var = 0.01f;
+		var = 0.1f;
     }
 
     public void Exit()
@@ -98,11 +99,11 @@ public class UIManager : MonoBehaviour
 
     public void StartGame()
     {
-        Time.timeScale = 0f;
+        Time.timeScale = 1f;
         GameManager.instance.ChangeStateEvent += ShowPanel;
         //StartCoroutine("BarTime");
         GameManager.instance.ChangeToNewState(GameState.PLAYING);
-		var = 0.01f;
+		var = 0.1f;
     }
 
     void ShowPanel()
