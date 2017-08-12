@@ -1,12 +1,4 @@
-﻿//------------------------------------------------------------
-//
-//	Example Code - by AceAsset
-//
-//  email : AceAsset@gmail.com
-//
-//------------------------------------------------------------
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class FollowCam : MonoBehaviour 
@@ -63,7 +55,7 @@ public class FollowCam : MonoBehaviour
 	void Start () 
 	{
 		m_defaultPosition = transform.position;
-		m_defaultRotation = transform.rotation;
+		//m_defaultRotation = transform.rotation;
 
 		if( m_target == null )
 		{
@@ -81,7 +73,7 @@ public class FollowCam : MonoBehaviour
 			return;
 
 		UpdateDistance();
-		UpdateMouseRotation();
+		//UpdateMouseRotation();
 
 		m_lastTargetPosition = Vector3.Lerp(m_lastTargetPosition, m_target.transform.position, m_smooth * Time.deltaTime);
 		transform.LookAt(m_lastTargetPosition);

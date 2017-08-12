@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public enum GameState {LOADING, START, PLAYING, GAME_OVER, PAUSE, CONTINUE}
+public enum GameState {LOADING, START, PLAYING, GAME_OVER, PAUSE, CONTINUE, WIN}
 
 public class GameManager : MonoBehaviour
 {

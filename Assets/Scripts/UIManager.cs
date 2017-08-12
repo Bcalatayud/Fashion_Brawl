@@ -14,12 +14,15 @@ public class UIManager : MonoBehaviour
 	public Slider volumeSlider;
 	public Slider p1;
 	public Image SliderFill;
+	public int escena;
 
     //
     private float currentTime;
 	private float tiempo = 99f;
 	private float var = 0f;
 	private float damage1= 0f;
+
+
 
     void Start()
     {       
@@ -88,9 +91,9 @@ public class UIManager : MonoBehaviour
     {
         ClearUI();
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
+		SceneManager.LoadScene(0);
 		GameManager.instance.ChangeToNewState(GameState.GAME_OVER);
-        Application.Quit();
+        //Application.Quit();
     }
 
     public void StartGame()
@@ -115,7 +118,7 @@ public class UIManager : MonoBehaviour
 
     }
 
-	public void DownHealth()
+	public void NextScene()
 	{
 		//p1.value = p1.value - damage;
 		//SliderFill.color = Color.red;

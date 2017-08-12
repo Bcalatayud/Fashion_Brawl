@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CharControl : MonoBehaviour 
 {
@@ -57,6 +58,7 @@ public class CharControl : MonoBehaviour
 
 	public Slider P2_H;
 	public Image color;
+	public int escena;
 
 	private float var = 0;
 
@@ -338,8 +340,10 @@ public class CharControl : MonoBehaviour
 		if (P2_H.value < 0.25) {
 			color.color = Color.red;
 		}
-		if (P2_H.value < 0.10)
-			m_ani.SetTrigger ("Die");
+		if (P2_H.value == 0) { 			m_ani.SetTrigger ("Die");
+			SceneManager.LoadScene(escena+1);
+		}
+		
 		//--------------------
 		// hitFX example
 		GameObject.Instantiate(m_hitEffect, hitPosition, Quaternion.identity);

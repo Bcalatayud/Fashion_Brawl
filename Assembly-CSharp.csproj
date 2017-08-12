@@ -58,11 +58,14 @@
      <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\IdleChanger.cs" />
      <Compile Include="Assets\Scripts\AnimationList.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\CamControl.cs" />
      <Compile Include="Assets\Scripts\CharControl.cs" />
+     <Compile Include="Assets\Scripts\CharControl1.cs" />
      <Compile Include="Assets\Scripts\DestroyTime.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\UIManager2.cs" />
+     <Compile Include="Assets\Scripts\UIManager3.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger2.cs" />
